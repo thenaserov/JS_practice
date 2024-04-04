@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html>
+
+<!-- YOU CAN PUT <SCRIPT> IN BOTH HEADER AND BODY -->
+<!-- YOU CAN ALSO PUT IT IN A FILE AND CONNECT THEM AGAIN IN BOTH HEAD AND BODY -->
+<!--
+    ADVANTAGE OF EXTERNAL JS CODE
+
+    It separates HTML and code
+    It makes HTML and JavaScript easier to read and maintain
+    Cached JavaScript files can speed up page loads
+
+    HOW TO CONNECT THEM
+
+    With a full URL (a full web address)
+    With a file path (like /js/)
+    Without any path
+
+-->
