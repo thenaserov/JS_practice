@@ -3,11 +3,30 @@
 <body>
 
     <h2>What Can JavaScript Do?</h2>
-        <p>JavaScript can change HTML attribute values.</p>
+        <br>
+        <p><b>JavaScript can change HTML attribute values.</b></p>
         <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
         <button onclick="document.getElementById('myImage').src='res/pic_bulbon.gif'">Turn on the light</button>
         <img id="myImage" src="res/pic_bulboff.gif" style="width:100px">
         <button onclick="document.getElementById('myImage').src='res/pic_bulboff.gif'">Turn off the light</button>
-
-</body>
+        <br>
+        <br>
+        <p><b>JavaScript can change inner HTML content</b></p>
+        <p id="demo">JavaScript can change HTML content.</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "You See the text has chnaged"'>Click Me!</button>
+        <br>
+        <br>
+        <p><b>JavaScript can change thestyle of an HTML element</b></p>
+        <p id="style_demo">Look at me</p>
+        <button type="button" onclick="document.getElementById('style_demo').style.fontSize='35px'">Click Me!</button>
+        <br>
+        <br>
+        <p><b>JavaScript can show and hide html elements</b></p>
+        <p id="hide_demo">JavaScript can hide HTML elements.</p>
+        <button type="button" onclick="document.getElementById('hide_demo').style.display='none'">to hide Click Me!</button>
+        <button type="button" onclick="document.getElementById('hide_demo').style.display='block'">to show Click Me!</button>
+        <br>
+        <br>
+        
+    </body>
 </html>
