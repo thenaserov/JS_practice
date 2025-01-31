@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#map {
+  width: 100%;
+  min-height: 600px; /* Ensure the map stays visible */
+  margin: 0 auto;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px; /* Slightly larger padding */
+  border-radius: 5px;
+  display: none;
+  pointer-events: none;
+  z-index: 1001; /* Ensure the tooltip is above the map */
+}
+
+#info-panel {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 250px; /* Slightly wider info panel */
+}
+
+#info-panel h2 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+#info-panel p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  #map {
+    height: 400px; /* Reduce height for smaller screens */
+  }
+
+  #info-panel {
+    width: 100%;  /* Make the info panel full-width */
+    top: auto;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+  }
+}
