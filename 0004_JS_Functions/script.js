@@ -8,7 +8,7 @@ let myFunction = (a, b) => a * b;
 
 hello = () => {
   return "Hello World!";
-}
+};
 
 // with params
 hello = (val) => "Hello " + val;

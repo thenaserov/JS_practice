@@ -24,11 +24,9 @@ VAR
 
 */
 
-var v   = 1;
-let l   = 2;
+var v = 1;
+let l = 2;
 const c = 3;
-
-
 
 // Numbers:
 let length = 16;
@@ -43,7 +41,7 @@ let x = true;
 let y = false;
 
 // Object:
-const person = {firstName:"John", lastName:"Doe"};
+const person = { firstName: "John", lastName: "Doe" };
 
 // Array object:
 const cars = ["Saab", "Volvo", "BMW"];
@@ -51,8 +49,8 @@ const cars = ["Saab", "Volvo", "BMW"];
 // Date object:
 const date = new Date("2022-03-25");
 
-function adder(a, b){
-    return a + b;
+function adder(a, b) {
+  return a + b;
 }
 
-alert(adder(1, 2))
+alert(adder(1, 2));
