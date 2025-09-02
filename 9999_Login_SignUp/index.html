@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login SignUp</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <button class="buttons" id="loginPageButton">Login Page</button>
+    </div>
+    <div>
+        <button class="buttons" id="loginPageButton">Sign Up Page</button>
+    </div>
+
+    <!-- Log In -->
+    <div class="loginBox" id="mainContainer">
+        <div class="usernameBox" id="userNameContainer">
+            <label for="usernameInput">username: </label>
+            <input id="usernameInput" name="usernameInput" type="text">
+        </div>
+        <div class="passwordBox" id="passwordContainer">
+            <label for="passwordInput">password: </label>
+            <input id="passwordInput" name="passwordInput" type="text">
+        </div>
+        <div class="buttonsBox">
+            <button class="buttons" id="loginButton"> Login </button>
+        </div>
+    </div>
+    
+    <!-- Sign UP -->
+    <div class="loginBox" id="mainContainer">
+        <div class="usernameBox" id="userNameContainer">
+            <label for="usernameInput">username: </label>
+            <input id="usernameInput" name="usernameInput" type="text">
+        </div>
+        <div class="passwordBox" id="passwordContainer">
+            <label for="passwordInput">password: </label>
+            <input id="passwordInput" name="passwordInput" type="text">
+        </div>
+        <div>
+            <label for="passwordInputRepeat">Repeat password: </label>
+            <input id="passwordInputRepeat" name="passwordInputRewpeat" type="text">
+        </div>
+        <div class="buttonsBox">
+            <button class="buttons" id="signUpButton"> SignUp </button>
+        </div>
+    </div>
+
+</body>
 </html>
